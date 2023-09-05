@@ -1,5 +1,5 @@
-import UseStateStudy from './UseStateStudy'
+import OnClickForm from './UseStateStudy'
 
 export {
-  UseStateStudy,
+  OnClickForm,
 }

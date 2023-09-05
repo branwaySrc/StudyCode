@@ -1,12 +1,12 @@
-import './App.css'
-import { UseStateStudy } from './ReactStudy/path'
+import './index.css'
+import { OnClickForm } from './ReactStudy/path'
 
 
 function App() {
 
   return (
     <>
-      <UseStateStudy></UseStateStudy>
+      <OnClickForm></OnClickForm>
     </>
   )
 }
