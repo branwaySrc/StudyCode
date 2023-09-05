@@ -1,12 +1,19 @@
 import './index.css'
-import { OnClickForm } from './ReactStudy/path'
+import { 
+  OnClickForm,
+  InputForm,
+  UseStateForm
+
+} from './UseStateFunction/path'
 
 
 function App() {
 
   return (
     <>
+      <UseStateForm></UseStateForm>
       <OnClickForm></OnClickForm>
+      <InputForm></InputForm>
     </>
   )
 }

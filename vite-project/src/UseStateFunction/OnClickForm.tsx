@@ -17,12 +17,10 @@
 
 import { useState } from 'react'
 
-const OnclickForm = () => {
-  
+const OnClickForm = () => {
   const [ count , setCount ] = useState(1);
   
   const handleClick = () => {
-    
     let resetCount;
 
     if (count >= 6) {
@@ -34,15 +32,18 @@ const OnclickForm = () => {
   };
   
   return (
+
     <div>
+      <h1>useState Count</h1>
       <p>useState을 활용한 버튼 카운트 올리기</p>
       <span> 현재 카운트 {count}번 </span>
       <button onClick={handleClick}> Update </button>
     </div>
+    
   )
 }
 
-export default OnclickForm
+export default OnClickForm
 
 // 순서 정리
 // 1) 초기값 설정을 한다.
